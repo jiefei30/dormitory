@@ -1,0 +1,58 @@
+@charset "UTF-8";
+*{
+outline:none;
+box-sizing: border-box;   
+margin: 0;
+font-family: "Microsoft JhengHei";
+}
+
+ul, ol {
+    list-style: none;
+}
+.my-body{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.myhead{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	height: 100px;
+	padding-top: 10px;
+}
+.mytable{
+	display:block;
+	margin-left:1%;
+	height:100%;
+	font-size:20px;
+}
+.mytable td{
+	text-align:center;
+	width:170px;
+}
+.mytable tr:hover td{
+	background-color: rgb(92,184,92);
+	cursor: pointer;
+}
+#addModal select{
+	width:200px;
+}
+#addModal input{
+	width:200px;
+}
+.fuzzy{
+	border-top:1px solid rgb(92,184,92) ;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom:10px;
+}
+.pageJump{
+	display: flex;
+	justify-content: space-between;
+	margin-left:35%;
+	width:450px;
+	margin-top:50px;
+	position: absolute;
+    bottom: 100px;
+}
